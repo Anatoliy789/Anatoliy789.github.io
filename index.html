@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Нікола Тесла — Видатний Винахідник</title>
+<style>
+body {
+    /* Збережено оригінальні стилі фону Тесли */
+    background: linear-gradient(180deg, #FAFAD2, #F5DEB3);
+    font-family: 'Times new roman', serif;
+    color: #333333;
+}
+.content-wrapper {
+    /* Додано стилі для центрування контенту, як у ЛР5 */
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    color: #8B4513;
+}
+.text-color-bio {
+    color: #556B2F;
+}
+.text-color-works {
+    color: #4682B4;
+}
+.text-color-death {
+    color: #800000;
+}
+/* СТИЛІ НАВІГАЦІЇ З ЛР5 */
+.nav-bar {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #1427AD; /* Змінено колір рамки на синій Тесли */
+    background-color: #e0e6f0;
+}
+.nav-bar a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1427AD; /* Синій колір для посилань */
+}
+
+/* Стиль для графічного посилання з картою */
+img[usemap] {
+    border: 2px solid #1427AD;
+}
+</style>
+</head>
+<body>
+<div class="content-wrapper">
+
+    <header>
+        <hr color="#1427AD" size="3">
+        <marquee behavior="scroll" direction="left" align="middle">
+            Привіт, ця сторінка для тих, хто хоче дізнатися про генія електрики, Ніколу Теслу!
+        </marquee>
+        <hr color="#1427AD">
+        <h1 align="center">
+            Нікола Тесла
+        </h1>
+        <p align="right">
+            <em style="font-size: 1.1em; color: #444;">
+                Мій мозок тільки приймальний пристрій. У космічному просторі існує якесь ядро звідки ми черпаємо знання, сили, натхнення.
+            </em><br>
+            Нікола Тесла.
+        </p>
+    </header>
+
+    <hr>
+    
+    <nav class="nav-bar">
+        <a href="page2.html">Перейти до Винаходів (Сторінка 2)</a> |
+        <a href="page3.html" target="_blank">Перейти до Цитат (Сторінка 3)</a> |
+        <a href="#death_legacy">До Смерті та Спадщини</a>
+    </nav>
+    <hr>
+
+    <section>
+        <h2 class="section-title">
+            Біографія:
+        </h2>
+        <p>
+            <a href="page2.html">
+                <img src="Nikola_Tesla_Portrait.jpg" alt="Портрет Ніколи Тесли. Графічне посилання на page2." align="right" hspace="15" height="350" width="250" usemap="#tesla_map">
+            </a>
+            
+            <map name="tesla_map">
+                <area shape="rect" coords="10, 10, 100, 50" href="page3.html" alt="Лівий верхній кут: посилання на Цитати">
+                <area shape="circle" coords="125, 175, 40" href="mailto:student@example.com?subject=Питання_щодо_Тесли" alt="Центр: Надіслати листа">
+            </map>
+            
+            <span class="text-color-bio">Нікола́ Те́сла</span> — сербський та американський винахідник, інженер-електрик та фізик. Народився 10 липня 1856 року в Сміляні. Він мав унікальну здатність детально уявляти свої винаходи в голові і навіть "протестувати" їх без жодного запису чи креслення.
+            <br><br>
+            Тесла здобув освіту в Грацькому політехнічному інституті та Празькому університеті. Після роботи у телефонній компанії в Будапешті, де він винайшов індукційний електродвигун, він емігрував до США у 1884 році та недовго працював з Томасом Едісоном.
+            <br><br>
+            Він був центральною фігурою у так званій "Війні струмів", просуваючи змінний струм (AC) як стандарт для передачі електроенергії, на відміну від постійного струму Едісона.
+        </p>
+
+        <h2 class="section-title">
+            Основні Віхи Життя:
+        </h2>
+        <ul>
+            <li>Народився в Сміляні (сучасна Хорватія) 10 липня 1856 року.</li>
+            <li>Працював у телефонній компанії в Будапешті, де винайшов індукційний електродвигун.</li>
+            <li>Був центральною фігурою у так званій "Війні струмів".</li>
+        </ul>
+
+        <a id="death_legacy"></a>
+        <h2 class="section-title">
+            Смерть і Спадщина
+        </h2>
+        <p>
+            <span class="text-color-death">
+                Нікола Тесла помер на самоті 7 січня 1943 року в готелі New Yorker у віці 86 років. Його смерть залишається загадкою, оскільки ФБР конфіскувало його особисті речі та документи, що призвело до численних теорій змови.
+            </span>
+            <br><br>
+            Незважаючи на те, що він помер у бідності, його внесок у науку є неоціненним. Його ім'ям названо одиницю вимірювання магнітної індукції (Тесла, Tл). Його ідеї лягли в основу радіо, дистанційного керування, бездротової передачі енергії та сучасних електродвигунів.
+        </p>
+    </section>
+</div> 
+<footer>
+<hr>
+<p align="center">
+    <b>Сторінку підготував Тимків Анатолій</b> <br>
+    <a href="mailto:tymkiv_anatoliy@college.ua?subject=Запитання_щодо_Тесли" style="color: #1427AD; font-weight: bold;">Зв'язатися з автором (Поштове посилання)</a><br>
+    &copy; Всі права захищено! Матеріали взяті із відкритих джерел.<br>
+    <span style="font-size: 0.85em;">
+    Висновки: В результаті виконання лабораторної роботи я опанував методи створення різних видів списків та гіперпосилань, а також навчився з'єднувати вебсторінки в єдиний сайт.
+    </span>
+</p>
+</footer>
+</body>
+</html>
